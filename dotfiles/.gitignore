@@ -1,0 +1,38 @@
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# 编辑器和 IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 临时文件和日志
+*.tmp
+*.temp
+*.log
+
+# 密钥、凭据及本地环境配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 常见语言和工具的缓存、构建产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+node_modules/
+dist/
+build/
+.cache/
+
+# 本地覆盖配置（保留示例配置）
+*.local
+!.local.example
