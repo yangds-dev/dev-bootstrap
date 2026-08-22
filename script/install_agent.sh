@@ -28,4 +28,7 @@ npm install --global @openai/codex @anthropic-ai/claude-code
 # 安装 cc-switch cli
 curl -fsSL https://github.com/SaladDay/cc-switch-cli/releases/latest/download/install.sh | bash
 
+# 安装 codegraph
+curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.sh | sh
+
 echo "安装完成。"
